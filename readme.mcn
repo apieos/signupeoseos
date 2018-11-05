@@ -1,0 +1,15 @@
+# signupeoseos
+
+### Install
+
+```
+cleos create account eosio signupeoseo marcinn12345-EOS4uB3bEV9XAHzaEhGfeKusFxwZaw67aLTWsxdiNZn41vsUb8rvY
+cleos set account permission signupeoseos active '{"threshold": 1,"EOS4uB3bEV9XAHzaEhGfeKusFxwZaw67aLTWsxdiNZn41vsUb8rvY": [{"EOS4uB3bEV9XAHzaEhGfeKusFxwZaw67aLTWsxdiNZn41vsUb8rvY": "EOS4uB3bEV9XAHzaEhGfeKusFxwZaw67aLTWsxdiNZn41vsUb8rvY","weight": 1}],"accounts": [{"permission":{"actor":"signupeoseos","permission":"eosio.code"},"weight":1}]}' owner -p signupeoseos
+make build_and_deploy
+```
+
+### Usage
+
+```
+cleos transfer eosio signupeoseos "5 EOS" "marcinn12345-EOS4uB3bEV9XAHzaEhGfeKusFxwZaw67aLTWsxdiNZn41vsUb8rvY"
+```
